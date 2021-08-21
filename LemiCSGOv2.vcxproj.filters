@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Sources\CORE">
+      <UniqueIdentifier>{645aad5d-1d5b-4515-8246-d32b1f9c9195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\INTERFACES">
+      <UniqueIdentifier>{c2c2678c-2dca-484b-959a-fbc7324f48f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\TOOLS">
+      <UniqueIdentifier>{f3cfc4f9-180e-4cb9-a8ec-d849939fc28a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Headers\CORE">
+      <UniqueIdentifier>{d4e650e0-79f9-4747-9eac-11405240a4ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\INTERFACES">
+      <UniqueIdentifier>{eb253060-1c6d-4f5e-88b5-28eb05862a86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\INTERFACES\GAME">
+      <UniqueIdentifier>{8e61955e-497e-4c00-aae3-8d7c71e2b326}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\TOOLS">
+      <UniqueIdentifier>{39881ee1-3409-41b8-90b5-1eed7b669937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\MATH">
+      <UniqueIdentifier>{f892fffa-89d8-435b-9fda-788b4e299a79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\MATH">
+      <UniqueIdentifier>{647118dc-6232-41da-85cf-110d0dcdf230}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GAME">
+      <UniqueIdentifier>{8bfde000-9ab5-4372-948f-ca262383c732}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\GAME">
+      <UniqueIdentifier>{06342b99-de88-44eb-b2be-bea2fcbe2d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GAME\ENTITYS">
+      <UniqueIdentifier>{d0d8c574-28b1-4d2f-959e-7238da14c801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GAME\NETWORK">
+      <UniqueIdentifier>{0ecb35da-3215-497e-95fa-e346d01439f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\GAME\CLASSES">
+      <UniqueIdentifier>{66bfa12c-99e0-4c03-a8e0-74a67fdff33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\HOOKS">
+      <UniqueIdentifier>{c5b633d6-2c3a-48ee-ba6b-eb7f4ca486eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\HOOKS">
+      <UniqueIdentifier>{0f22c6ae-4fb7-4d5a-8e0c-d63fa605ba9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\FEATURES">
+      <UniqueIdentifier>{908a0f76-d245-4a9d-8ff4-fb127190cb69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\FEATURES">
+      <UniqueIdentifier>{3b048ff2-3d51-49f2-bb2a-77f38f9fca90}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\interfaces.cpp">
+      <Filter>Sources\INTERFACES</Filter>
+    </ClCompile>
+    <ClCompile Include="src\dllmain.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hack_core.cpp">
+      <Filter>Sources\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\command_executor.cpp">
+      <Filter>Sources\CORE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\mem_tools.cpp">
+      <Filter>Sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\netvars.cpp">
+      <Filter>Sources\TOOLS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\v_matrix.cpp">
+      <Filter>Sources\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector.cpp">
+      <Filter>Sources\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector2d.cpp">
+      <Filter>Sources\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\vector4d.cpp">
+      <Filter>Sources\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\create_move_hook.cpp">
+      <Filter>Sources\HOOKS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\hook_manager.cpp">
+      <Filter>Sources\HOOKS</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\legit_bot\legit_bot.cpp">
+      <Filter>Sources\FEATURES</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\esp\esp.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\paint_traverse_hook.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools\render_tool.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\end_scane_hook.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\math\game_math.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\reset_hook.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\menu\menu.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_draw.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\impl\imgui_impl_dx9.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\impl\imgui_impl_win32.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="deps\imgui\imgui_widgets.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\lock_cursor_hook.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\frame_stage_notify_hook.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\events\events_listeners.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\hooks\override_view_hook.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\features\menu\custom_widgets.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\interfaces.h">
+      <Filter>Headers\INTERFACES</Filter>
+    </ClInclude>
+    <ClInclude Include="src\singleton.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\include_all_interfaces.h">
+      <Filter>Headers\INTERFACES</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hack_core.h">
+      <Filter>Headers\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\command_executor.h">
+      <Filter>Headers\CORE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\mem_tools.h">
+      <Filter>Headers\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\netvars.h">
+      <Filter>Headers\TOOLS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\q_angle.h">
+      <Filter>Headers\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\v_matrix.h">
+      <Filter>Headers\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector.h">
+      <Filter>Headers\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector2d.h">
+      <Filter>Headers\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\vector4d.h">
+      <Filter>Headers\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\create_move_hook.h">
+      <Filter>Headers\HOOKS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\hook_manager.h">
+      <Filter>Headers\HOOKS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\hooks.h">
+      <Filter>Headers\HOOKS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_client_class.h">
+      <Filter>Headers\GAME\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\base_entity.h">
+      <Filter>Headers\GAME\ENTITYS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\base_player.h">
+      <Filter>Headers\GAME\ENTITYS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\i_client_entity.h">
+      <Filter>Headers\GAME\ENTITYS</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\network\recv_props.h">
+      <Filter>Headers\GAME\NETWORK</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys.h">
+      <Filter>Headers\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\fnv.h">
+      <Filter>Headers\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\iv_engine_client.h">
+      <Filter>Headers\INTERFACES\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\v_base_client.h">
+      <Filter>Headers\INTERFACES\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\v_client_entity_list.h">
+      <Filter>Headers\INTERFACES\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\i_client_mode.h">
+      <Filter>Headers\INTERFACES\GAME</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_user_cmd.h">
+      <Filter>Headers\GAME\CLASSES</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\legit_bot\legit_bot.h">
+      <Filter>Headers\FEATURES</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\esp\esp.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\globals.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\local_player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\math.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\entitys\base_items.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\i_panel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\paint_traverse_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\i_surface.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\color.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\math\game_math.h">
+      <Filter>Headers\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tools\render_tool.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\end_scane_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\v_debug_overlay.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\reset_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\menu\menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imconfig.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imgui_internal.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\impl\imgui_impl_dx9.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\impl\imgui_impl_win32.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_textedit.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_rectpack.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="deps\imgui\imstb_truetype.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\lock_cursor_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\i_engine_trace.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\frame_stage_notify_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_interfaces\i_event_manager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\events\events_listeners.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_sdk\classes\c_view_setup.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hooks\override_view_hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\features\menu\custom_widgets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
